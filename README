@@ -1,0 +1,17 @@
+feat: criação de uma To-Do List funcional
+- Desenvolvido um sistema de gerenciamento de tarefas (To-Do List) do zero.
+- Funcionalidades principais:
+  - Adicionar tarefas à lista, com validação para impedir inputs vazios.
+  - Marcar tarefas como concluídas, alterando visualmente seu estado.
+  - Excluir tarefas da lista de forma dinâmica.
+  - Persistência de dados com LocalStorage para manter as tarefas entre sessões.
+- Estrutura e organização:
+  - Uso de addEventListener para capturar interações do usuário.
+  - Métodos principais:
+    - adicionarNovaTarefa(): adiciona uma nova tarefa e limpa o input.
+    - mostrarTarefas(): renderiza a lista na tela, atualizando com base no estado.
+    - concluirTarefa(): alterna o estado de "concluído" para cada tarefa.
+    - deletarItem(): remove uma tarefa e atualiza o LocalStorage.
+    - recarregarTarefas(): carrega tarefas salvas no LocalStorage ao carregar a página.
+- Utilização de JavaScript puro, com manipulação dinâmica do DOM.
+- Design modular para fácil manutenção e expansão futura.
